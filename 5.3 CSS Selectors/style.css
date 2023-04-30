@@ -5,3 +5,26 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.note {
+  font-size: 17px;
+}
+
+p {
+  color: red;
+}
+
+#id-selector-demo {
+  color: green
+}
+
+li[value="4"] {
+  color: blue;
+}
