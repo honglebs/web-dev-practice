@@ -2,11 +2,26 @@
 
 
 /* Group */
+h1, h2 {
+    color: blueviolet
+}
 
-/* Child */
+/* Parent and direct Child */
+.box > p {
+    color: firebrick;
+}
 
 /* Decendant */
+.box li {
+    color: blue;
+}
 
 /* Chained */
+li.done {
+    color: green;
+}
 
-/* Multi-Combiners */
+/* Multiple Combiners */
+ul p.done {
+    font-size: 0.5rem;
+}
