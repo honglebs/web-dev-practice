@@ -19,23 +19,51 @@ footer {
   color: midnightblue;
 }
 
-/* Small Devices */
-@media (max-width: 480px) {
-  body {
-    background-color: bisque;
-  }
+.title-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
 }
 
-/* Laptop Devices */
-@media (min-width: 481px) and (max-width: 1200px) {
- body {
-  background-color: aquamarine;
- }
+.card {
+  width: 45%;
 }
 
-/* Desktop Devices */
-@media (min-width: 1201px) and (max-width: 1600px) {
-  body {
-    background-color: azure;
-  }
+.left {
+  float: left;
 }
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+
+}
+
