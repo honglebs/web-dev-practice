@@ -19,3 +19,23 @@ footer {
   color: midnightblue;
 }
 
+/* Small Devices */
+@media (max-width: 480px) {
+  body {
+    background-color: bisque;
+  }
+}
+
+/* Laptop Devices */
+@media (min-width: 481px) and (max-width: 1200px) {
+ body {
+  background-color: aquamarine;
+ }
+}
+
+/* Desktop Devices */
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: azure;
+  }
+}
